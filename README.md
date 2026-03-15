@@ -1,16 +1,15 @@
-Fuzzy Logic Based Washing Machine Control System
+# Fuzzy Logic Based Washing Machine Control System
 Overview
 
-This project implements a washing machine control system using fuzzy logic. The system determines optimal washing parameters such as detergent powder amount, wash time, and water temperature based on different laundry conditions.
+-- This project implements a washing machine control system using fuzzy logic. The system determines optimal washing parameters such as detergent powder amount, wash time, and water temperature based on different laundry conditions.
 
 The model uses fuzzy inference rules to simulate human decision-making when selecting washing settings.
 
-Inputs
+# 📝 Inputs
 
 The system takes the following inputs:
 
 Laundry Weight: 0 – 8 kg
-
 Dirt Level: 1 – 10
 
 Fabric Type:
@@ -22,41 +21,17 @@ Fabric Type:
 
 Water Hardness: 1 – 10
 
-Outputs
+# Outputs
 
-The system calculates:
+→ The system calculates:
+→ Powder Required (grams)
+→ Wash Time (minutes)
+→ Water Temperature (°C)
 
-Powder Required (grams)
-
-Wash Time (minutes)
-
-Water Temperature (°C)
-
-Technologies Used
+# Technologies Used
 
 Python
-
 NumPy
-
 Scikit-Fuzzy
-
 Matplotlib
 
-How to Run
-
-Install required libraries:
-
-pip install numpy scikit-fuzzy matplotlib
-
-Run the program:
-
-python washing_machine.py
-Features
-
-Fuzzy rule-based decision system
-
-Multiple input parameters
-
-Automatic washing parameter calculation
-
-3D visualization of membership functions and output surfaces
